@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Header } from './components/layout/Header';
-import { HomePage } from './pages';
+import { HomePage, HookUseEffectPage } from './pages';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<HookUseEffectPage />} />
       </Routes>
     </div>
   );
