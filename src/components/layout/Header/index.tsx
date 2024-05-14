@@ -9,7 +9,7 @@ export const Header = () => {
             Hooks
           </Link>
           <ul className='flex gap-4'>
-            <li className='gap-4 text-xl text-white font-bold '></li>
+            <li className='gap-4 text-xl text-white font-bold '>UseEffect</li>
           </ul>
         </nav>
       </div>

@@ -8,7 +8,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/' element={<HookUseEffectPage />} />
+        <Route path='/use-effect' element={<HookUseEffectPage />} />
       </Routes>
     </div>
   );

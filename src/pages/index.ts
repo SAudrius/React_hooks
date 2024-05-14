@@ -1,2 +1,2 @@
-export * from './AboutPage';
+export * from './HookeUseEffectPage';
 export * from './HomePage';
